@@ -216,7 +216,7 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
+        width: 60%;
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
@@ -225,7 +225,7 @@ papertitle {
 
     #header .image.avatar {
       margin: 0 0 1em 0;
-      width: 8.00em;
+      width: 10.00em;
     }
 
 h3, h4, h5, h6 {
@@ -238,13 +238,14 @@ h1 {
   font-weight: 500;
   color:#043361;
   margin:0 0 20px;
+  font-size: 36px;
 }
 
 h2 {
   color:#043361;
   font-weight: 500;
   margin:2px 0px 15px;
-  font-size: 157%;
+  font-size: 28px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -259,6 +260,7 @@ h2 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+  font-size: 18px;
 }
 
 h1, h2, h3 {
@@ -296,8 +298,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
-  margin:0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 blockquote {
@@ -356,12 +358,12 @@ img {
 }
 
 header {
-  width:232px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
-  text-align:center
+  width: 300px;
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+  padding-top: 4.0em;
+  text-align: center;
 }
 
 
@@ -432,10 +434,10 @@ header ul a strong {
 }
 
 section {
-  width:650px;
-  float:right;
-  padding-top:4.0em;
-  padding-bottom:50px;
+  width: 800px;
+  float: right;
+  padding-top: 4.0em;
+  padding-bottom: 50px;
 }
 
 small {
@@ -450,41 +452,35 @@ hr {
 }
 
 footer {
-  width:232px;
-  float:left;
-  position:fixed;
-  bottom:30px;
-  -webkit-font-smoothing:subpixel-antialiased;
-  text-align:center;
+  width: 300px;
+  float: left;
+  position: fixed;
+  bottom: 30px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-align: center;
 }
 
 @media print, screen and (max-width: 960px) {
-
-  .pub-row {
-  display: flex; 
-  align-items: center;}
-
-  div.wrapper {
-    width:auto;
-    margin:0;
+  .wrapper {
+    width: auto;
+    margin: 0;
   }
 
-
   header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
+    width: auto;
+    float: none;
+    position: static;
   }
 
   header {
-    padding-right:320px;
+    padding-right: 320px;
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
   }
 
   header a small {
@@ -497,11 +493,8 @@ footer {
     top:52px;
   }
 
-
    .image.avatar img {
-        border-radius: 100%;
-        width: 117px;
-        padding:20px;
+        width: 150px;
       }
   #head1o2 {
     visibility: hidden;
@@ -555,9 +548,7 @@ footer {
   }
 
   .image.avatar img {
-      border-radius: 100%;
-      width: 95px;
-      padding:20px;
+      width: 120px;
   }
   #head1o2 {
     visibility: hidden;
@@ -594,4 +585,8 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: monospace;
+}
+
+body {
+  font-size: 18px;
 }
