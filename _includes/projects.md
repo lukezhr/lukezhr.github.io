@@ -7,8 +7,8 @@
     <li>
       <div class="pub-row">
         <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-          <div class="image-container">
-            <img src="{{ project.image }}" class="styled-image" alt="{{ project.title }}">
+          <div class="image-container" style="width: 100%; overflow: hidden; border: 1px solid #ccc; border-radius: 4px; padding: 4px;">
+            <img src="{{ project.image }}" class="styled-image" alt="{{ project.title }}" style="max-width: 100%; height: auto; display: block; object-fit: contain;">
             <div class="badge">Badge Text</div>
           </div>
         </div>
