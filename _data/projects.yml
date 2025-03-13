@@ -1,7 +1,7 @@
 main:
 
   - title: Enhanced Optical Characterization Using Convolutional Neural Networks
-    authors: Hongrui Zhang, Michael O. Thompson
+    authors: <strong>Hongrui Zhang</strong>, Michael O. Thompson
     pdf: ./assets/files/Master_Thesis_final_version.pdf
     image: ./assets/img/heatmap_merged_Optimized.png
     code: https://github.com/lukezhr/ReflectanceCNN
