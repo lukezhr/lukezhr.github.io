@@ -10,3 +10,6 @@ Hi, I am a first-year Ph.D. student in Materials Science and Engineering (MSE) a
 
 - **Computer Vision:** physics-based convolutional neural network
 - **Machine Learning:** Bayesian optimization, AI for science
+
+## Projects
+## Publication
