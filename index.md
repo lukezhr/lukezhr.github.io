@@ -13,3 +13,4 @@ Hi, I am a first-year Ph.D. student in Materials Science and Engineering (MSE) a
 
 ## Projects
 ## Publication
+{% include_relative _includes/publications.md %}
