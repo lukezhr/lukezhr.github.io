@@ -1,6 +1,8 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Jacob Katriel, <strong>Hongrui Zhang</strong>
-    journal: Journal of Low Temperature Physics, 202(1-2), 263-268.
-    pdf: ./assets/files/Katriel-Zhang2020_Article_FirstAndSecondDerivativesOfThe.pdf
+  - title: Enhanced Optical Characterization Using Convolutional Neural Networks
+    authors: Hongrui Zhang, Michael O. Thompson
+    pdf: ./assets/files/Master_Thesis_final_version.pdf
+    image: ./assets/img/heatmap_merged_Optimized.png
+    code: https://github.com/lukezhr/ReflectanceCNN
+    notes: Master Thesis
