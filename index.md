@@ -9,9 +9,15 @@ Hi! I’m Hongrui Zhang, a first-year Ph.D. student in Materials Science and Eng
 I’m currently looking for a lab that **accepts PhD students by summer 2025**. If you’re interested in collaborating or have opportunities available, I’d love to connect!
 
 ## Research Interests
+- **Semiconductor Thin Film Characterization:**  
+  Reflectance spectra, automated optical characterization system.
+  
+- **Computational Materials Science:** 
+  Optical simuation of semicondcutor thin films.
 
-- **Computer Vision:** physics-based convolutional neural network
-- **Machine Learning:** Bayesian optimization, AI for science
+- **Physics-Informed Machine Learning:**  
+  Developing CNN models  to extract physical insights from experimental data.
+
 
 {% include_relative _includes/projects.md %}
 
